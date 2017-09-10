@@ -1,0 +1,65 @@
+[2017-09-09 12:30:29 +0000] [25180] [INFO] Starting gunicorn 19.7.1
+[2017-09-09 12:30:29 +0000] [25180] [INFO] Listening at: http://0.0.0.0:82 (25180)
+[2017-09-09 12:30:29 +0000] [25180] [INFO] Using worker: sync
+[2017-09-09 12:30:29 +0000] [25185] [INFO] Booting worker with pid: 25185
+[2017-09-09 12:30:29 +0000] [25186] [INFO] Booting worker with pid: 25186
+[2017-09-09 12:30:29 +0000] [25191] [INFO] Booting worker with pid: 25191
+[2017-09-09 12:30:29 +0000] [25200] [INFO] Booting worker with pid: 25200
+[2017-09-10 11:49:03 +0000] [25180] [INFO] Handling signal: term
+[2017-09-10 11:49:03 +0000] [25185] [INFO] Worker exiting (pid: 25185)
+[2017-09-10 11:49:03 +0000] [25200] [INFO] Worker exiting (pid: 25200)
+[2017-09-10 11:49:03 +0000] [25191] [INFO] Worker exiting (pid: 25191)
+[2017-09-10 11:49:03 +0000] [25186] [INFO] Worker exiting (pid: 25186)
+[2017-09-10 11:49:03 +0000] [25180] [INFO] Shutting down: Master
+[2017-09-10 12:28:36 +0000] [26166] [INFO] Starting gunicorn 19.7.1
+[2017-09-10 12:28:36 +0000] [26166] [INFO] Listening at: http://0.0.0.0:82 (26166)
+[2017-09-10 12:28:36 +0000] [26166] [INFO] Using worker: sync
+[2017-09-10 12:28:36 +0000] [26172] [INFO] Booting worker with pid: 26172
+[2017-09-10 12:28:36 +0000] [26177] [INFO] Booting worker with pid: 26177
+[2017-09-10 12:28:36 +0000] [26178] [INFO] Booting worker with pid: 26178
+[2017-09-10 12:28:36 +0000] [26179] [INFO] Booting worker with pid: 26179
+[2017-09-10 13:42:06 +0000] [26166] [INFO] Handling signal: term
+[2017-09-10 13:42:06 +0000] [26177] [INFO] Worker exiting (pid: 26177)
+[2017-09-10 13:42:06 +0000] [26179] [INFO] Worker exiting (pid: 26179)
+[2017-09-10 13:42:06 +0000] [26178] [INFO] Worker exiting (pid: 26178)
+[2017-09-10 13:42:06 +0000] [26172] [INFO] Worker exiting (pid: 26172)
+[2017-09-10 13:42:06 +0000] [26166] [INFO] Shutting down: Master
+[2017-09-10 13:42:08 +0000] [26264] [INFO] Starting gunicorn 19.7.1
+[2017-09-10 13:42:08 +0000] [26264] [INFO] Listening at: http://0.0.0.0:81 (26264)
+[2017-09-10 13:42:08 +0000] [26264] [INFO] Using worker: sync
+[2017-09-10 13:42:08 +0000] [26269] [INFO] Booting worker with pid: 26269
+[2017-09-10 13:42:09 +0000] [26270] [INFO] Booting worker with pid: 26270
+[2017-09-10 13:42:09 +0000] [26275] [INFO] Booting worker with pid: 26275
+[2017-09-10 13:42:09 +0000] [26280] [INFO] Booting worker with pid: 26280
+[2017-09-10 13:43:48 +0000] [26264] [INFO] Handling signal: term
+[2017-09-10 13:43:48 +0000] [26280] [INFO] Worker exiting (pid: 26280)
+[2017-09-10 13:43:48 +0000] [26270] [INFO] Worker exiting (pid: 26270)
+[2017-09-10 13:43:48 +0000] [26269] [INFO] Worker exiting (pid: 26269)
+[2017-09-10 13:43:48 +0000] [26275] [INFO] Worker exiting (pid: 26275)
+[2017-09-10 13:43:48 +0000] [26264] [INFO] Shutting down: Master
+[2017-09-10 13:43:50 +0000] [26356] [INFO] Starting gunicorn 19.7.1
+[2017-09-10 13:43:50 +0000] [26356] [INFO] Listening at: http://0.0.0.0:81 (26356)
+[2017-09-10 13:43:50 +0000] [26356] [INFO] Using worker: sync
+[2017-09-10 13:43:50 +0000] [26361] [INFO] Booting worker with pid: 26361
+[2017-09-10 13:43:50 +0000] [26362] [INFO] Booting worker with pid: 26362
+[2017-09-10 13:43:50 +0000] [26370] [INFO] Booting worker with pid: 26370
+[2017-09-10 13:43:51 +0000] [26376] [INFO] Booting worker with pid: 26376
+[2017-09-10 13:49:16 +0000] [26356] [INFO] Handling signal: term
+[2017-09-10 13:49:16 +0000] [26362] [INFO] Worker exiting (pid: 26362)
+[2017-09-10 13:49:16 +0000] [26376] [INFO] Worker exiting (pid: 26376)
+[2017-09-10 13:49:16 +0000] [26370] [INFO] Worker exiting (pid: 26370)
+[2017-09-10 13:49:16 +0000] [26361] [INFO] Worker exiting (pid: 26361)
+[2017-09-10 13:49:16 +0000] [26356] [INFO] Shutting down: Master
+[2017-09-10 13:53:02 +0000] [26483] [INFO] Starting gunicorn 19.7.1
+[2017-09-10 13:53:02 +0000] [26483] [INFO] Listening at: http://0.0.0.0:81 (26483)
+[2017-09-10 13:53:02 +0000] [26483] [INFO] Using worker: sync
+[2017-09-10 13:53:02 +0000] [26488] [INFO] Booting worker with pid: 26488
+[2017-09-10 13:53:02 +0000] [26493] [INFO] Booting worker with pid: 26493
+[2017-09-10 13:53:03 +0000] [26494] [INFO] Booting worker with pid: 26494
+[2017-09-10 13:53:03 +0000] [26499] [INFO] Booting worker with pid: 26499
+[2017-09-10 13:53:34 +0000] [26483] [INFO] Handling signal: term
+[2017-09-10 13:53:34 +0000] [26494] [INFO] Worker exiting (pid: 26494)
+[2017-09-10 13:53:34 +0000] [26488] [INFO] Worker exiting (pid: 26488)
+[2017-09-10 13:53:34 +0000] [26493] [INFO] Worker exiting (pid: 26493)
+[2017-09-10 13:53:34 +0000] [26499] [INFO] Worker exiting (pid: 26499)
+[2017-09-10 13:53:34 +0000] [26483] [INFO] Shutting down: Master

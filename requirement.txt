@@ -1,0 +1,4 @@
+flask>=0.12
+pycrypto>=2.6.1
+Pillow>=4.0
+gunicorn>=19
