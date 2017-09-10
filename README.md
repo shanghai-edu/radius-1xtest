@@ -74,9 +74,9 @@ chmod +x control
 use nginx proxy to provide https
 
 #### Screenshots
-open http://127.0.0.1:81/test/<ssid> in your browser.
+open ```http://127.0.0.1:81/test/<ssid>``` in your browser.
 
-such as http://127.0.0.1:81/test/eduroam
+such as ```http://127.0.0.1:81/test/eduroam```
 ![](https://i.imgur.com/K7YlzZJ.jpg)
 
 #### API

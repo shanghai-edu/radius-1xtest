@@ -71,9 +71,9 @@ chmod +x control
 建议再套一层 nginx 做反向代理，以开启 https
 
 #### 运行截图
-访问 http://127.0.0.1:81/test/<ssid> 就可以测试了
+访问 ```http://127.0.0.1:81/test/<ssid>``` 就可以测试了
 
-例如 http://127.0.0.1:81/test/eduroam
+例如 ```http://127.0.0.1:81/test/eduroam```
 ![](https://i.imgur.com/K7YlzZJ.jpg)
 
 
