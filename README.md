@@ -1,4 +1,4 @@
-## eduroam-test
+## radius-1xtest
 [中文](https://github.com/shanghai-edu/radius-1xtest/blob/master/README-CN.md)
 #### Introduction
 Simple 802.1x test server, just like [Masarykova univerzita ](https://radius.ics.muni.cz/eduroam-test/eduroam-test.cgi)
