@@ -53,7 +53,7 @@ def code():
     return response   
 
 @app.route('/test/<string:ssid>', methods=['GET','POST'])
-def eduroam_test(ssid):
+def radius_test(ssid):
         ssid_config = app.config['SSID_CONFIG']
         if ssid not in ssid_config:
                 return "404 page not found",404
