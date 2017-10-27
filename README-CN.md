@@ -78,9 +78,9 @@ chmod +x control
 
 
 #### API
-配置文件中的 API_KEY 即为 API 所需的 token，示例如下：
+API 通过 header 中的 "X-API-KEY" 作为 API 验证。使用 `config.py` 中的 `API_KEY` 作为密钥：
 ```
-[root@host ~]# curl -H "Content-Type: application/json" -d '{"username":"test01@test.edu.cn","password":"test123","token":"0c8d964e8fbd4cfcd040b5691d119968"}' "https://test.edu.cn/api/v1/eduroam"
+#curl -H "Content-Type: application/json" -H "X-API-KEY: 0c8d964e8fbd4cfcd040b5691d119968" -d '{"username":"test01@test.edu.cn","password":"test123"}' "https://test.edu.cn/api/v1/eduroam"
 {
   "result": {
     "method": "mscharpv2", 

@@ -80,9 +80,9 @@ such as ```http://127.0.0.1:81/test/eduroam```
 ![](https://i.imgur.com/K7YlzZJ.jpg)
 
 #### API
-use API_KEY in config.py for the token
+use API_KEY in config.py for the "X-API-KEY" in http header
 ```
-[root@host ~]# curl -H "Content-Type: application/json" -d '{"username":"test01@test.edu.cn","password":"test123","token":"0c8d964e8fbd4cfcd040b5691d119968"}' "https://test.edu.cn/api/v1/eduroam"
+#curl -H "Content-Type: application/json" -H "X-API-KEY: 0c8d964e8fbd4cfcd040b5691d119968" -d '{"username":"test01@test.edu.cn","password":"test123"}' "https://test.edu.cn/api/v1/eduroam"
 {
   "result": {
     "method": "mscharpv2", 

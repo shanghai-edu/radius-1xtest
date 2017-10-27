@@ -6,9 +6,21 @@ from flask import request,jsonify,render_template,make_response,session,url_for
 from app import app
 from utils import radius_challenge
 from utils import create_validate_code
+from functools import wraps
 
+def require_appkey(view_function):
+    @wraps(view_function)
+    # the new, post-decoration function. Note *args and **kwargs here.
+    def decorated_function(*args, **kwargs):
+        if request.headers.get('X-API-KEY') and request.headers.get('X-API-KEY') == app.config["API_KEY"]:
+            return view_function(*args, **kwargs)
+        else:
+            result = {"sucess":False,"msg":"missing API-KEY or KEY is Wrong"}
+            return jsonify(result=result),403
+    return decorated_function
 
 @app.route('/api/v1/<string:ssid>', methods=['POST'])
+@require_appkey
 def radius1x_api(ssid):
 	ssid_config = app.config['SSID_CONFIG']
 	if ssid not in ssid_config:
@@ -16,12 +28,6 @@ def radius1x_api(ssid):
         data = request.get_json()
         if not data or not 'username' in data or not 'password' in data:
                 result = {"success":False,"msg":"username or password not found"}
-                return jsonify(result=result),400
-	if not 'token' in data:
-                result = {"success":False,"msg":"missed API token"}
-                return jsonify(result=result),400
-	if data['token'] != app.config['API_KEY']:
-                result = {"success":False,"msg":"API token wrong"}
                 return jsonify(result=result),400
         username = data["username"].encode("utf-8")
         password = data["password"].encode("utf-8")
