@@ -1,3 +1,4 @@
+#coding=utf-8 
 # BASIC APP CONFIG
 BIND_ADDRESS = '0.0.0.0'
 PORT = 81
@@ -14,4 +15,3 @@ SSID_CONFIG = {
 
 # API_KEY
 API_KEY = "0c8d964e8fbd4cfcd040b5691d119968"
-```
